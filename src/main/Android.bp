@@ -57,8 +57,10 @@ android_library {
     apex_available: [
         "//apex_available:platform",
         "com.android.extservices",
+        "com.android.adservices",
     ],
     visibility: [
         "//external/libtextclassifier:__subpackages__",
+        "//external/mobile-data-download:__subpackages__",
     ],
 }
